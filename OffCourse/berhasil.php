@@ -14,7 +14,7 @@
     ?>
     <div class="container" style="margin-top: 170px;">
     <p>anda berhasil check out</p>
-    <a href="Homepage.php"><button>Kembali</button></a>
+    <a href="index.php"><button>Kembali</button></a>
 </div>
 </body>
 </html>

@@ -26,7 +26,7 @@ include 'koneksi.php';
 <body>
 <nav class="navbar navbar-expand-md navbar-light navbar-sticky" style="background: white; box-shadow: 5px 5px 10px grey;">
         <div class="container">
-            <a class="navbar-brand" href="Homepage.php"><img src="logo.png" style="width: 80px; height: 80px; filter: drop-shadow(5px 5px 10px grey);"></a>
+            <a class="navbar-brand" href="index.php"><img src="logo.png" style="width: 80px; height: 80px; filter: drop-shadow(5px 5px 10px grey);"></a>
             <b><p>OFFCOURSE</p></b>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@ include 'koneksi.php';
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto mr-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="Homepage.php" style="color:black filter: drop-shadow(5px 5px 10px grey);"><b>Home</b></a>
+                        <a class="nav-link" href="index.php" style="color:black filter: drop-shadow(5px 5px 10px grey);"><b>Home</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Menu.php" style="color:black filter: drop-shadow(5px 5px 10px grey);"><b>Menu</b></a>

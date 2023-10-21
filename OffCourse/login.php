@@ -32,7 +32,7 @@
                         $_SESSION['username'] = $db_username;
                         $_SESSION['role'] = $user_role;
                         if ($user_role === 'customer') {
-                            header("Location: Homepage.php");
+                            header("Location: index.php");
                         } elseif ($user_role === 'admin') {
                             header("Location: admin.php");
                         } else {

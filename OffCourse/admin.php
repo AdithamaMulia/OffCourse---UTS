@@ -54,7 +54,7 @@ $conn->close();
 <body style="background-color: #F2E6D3;">
     <b><h2>OFFCOURSE</h2></b>
     <h2>Welcome, Admin - <?php echo $_SESSION['username']; ?></h2>
-    <a class="nav-link" href="homepage.php" style="color: black;"><b>Home Page</b></a>
+    <a class="nav-link" href="index.php" style="color: black;"><b>Home Page</b></a>
 
     <h3>Makanan Data</h3>
     <table>
