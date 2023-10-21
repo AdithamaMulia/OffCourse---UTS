@@ -1,0 +1,56 @@
+.captcha {
+    margin:15px 0px;
+}
+
+.captcha .preview {
+    color:#555;
+    width:100%;
+    text-align: center;
+    height: 40px;
+    line-height: 8px;
+    border:1px dashed #888;
+    font-family: "monospace";
+}
+
+.captcha .preview span {
+    display:inline-block;
+    user-select: none;
+}
+
+.captcha .captcha-form {
+    display:flex;
+}
+
+.captcha .captcha-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #888;
+}
+
+.captcha .captcha-form .captcha-refresh {
+    width: 40px;
+    border: none;
+    outline: none;
+    background: #888;
+    color: #eee;
+    cursor: pointer;
+}
+.custom-card {
+    background-color:  #FFCC80 !important;
+}
+.rounded-buttons {
+    background-color: #F6B14A;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px grey;
+    font-family: 'Tenor Sans', sans-serif;
+}
