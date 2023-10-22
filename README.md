@@ -5,3 +5,5 @@ Kelompok :
 -Jheno Syechlo (00000067872)
 -Rionaldy Dermawan (00000068154)
 -Adithama Mulia (0000067958)
+
+Kalau kesulitan di captcha login buka console.
