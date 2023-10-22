@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $hashpass = password_hash($password, PASSWORD_DEFAULT);
 
-    $sql = "INSERT INTO user (username, password, nama_depan, nama_belakang, gender, tanggal_lahir, role, foto_user) 
+    $sql = "INSERT INTO userdata (username, password, nama_depan, nama_belakang, gender, tanggal_lahir, role, foto_user) 
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
     $stmt = $conn->prepare($sql);

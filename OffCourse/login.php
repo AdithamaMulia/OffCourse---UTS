@@ -15,7 +15,7 @@
             $submittedCaptcha = "";
             $realCaptcha = "";
         } else {
-            $login_sql = "SELECT id_user, username, password, role FROM user WHERE username = ?";
+            $login_sql = "SELECT id_user, username, password, role FROM userdata WHERE username = ?";
             $stmt = $conn->prepare($login_sql);
 
             if ($stmt) {

@@ -94,7 +94,7 @@ session_start();
       <div class="card-text">
         <p>Rionaldy Dermawan</p>
         <p>Design</p>
-        <p>Informatika</p>
+        <p>Informatika 2022</p>
       </div>
     </div>
   </div>

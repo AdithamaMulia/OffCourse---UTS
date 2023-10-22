@@ -1,5 +1,6 @@
 <?php 
 session_start();
+include 'koneksi.php';
 ?>
 
 <!DOCTYPE html>
@@ -91,7 +92,7 @@ session_start();
             <br />
             <br />
             <br />
-            <a href="menu.php"><button class="get-started-button" style="font-family: 'Noto Sans', sans-serif; border: 2px solid black">Get Started</i></button></a>
+            <a href="Menu.php"><button class="get-started-button" style="font-family: 'Noto Sans', sans-serif; border: 2px solid black">Get Started</i></button></a>
         </div>
     </div>
 </div>

@@ -52,7 +52,7 @@ include 'koneksi.php';
                         $user_id = $_SESSION['user_id'];
                         $user_image_path = '';
                         $username = '';
-                        $sql = "SELECT foto_user, username FROM user WHERE id_user = ?";
+                        $sql = "SELECT foto_user, username FROM userdata WHERE id_user = ?";
                         $stmt = $conn->prepare($sql);
                         $stmt->bind_param("i", $user_id);
                         $stmt->execute();
