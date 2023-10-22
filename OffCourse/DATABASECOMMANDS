@@ -65,3 +65,74 @@ create table cart (
     FOREIGN KEY (id_makanan) REFERENCES makanan(id_makanan),
     FOREIGN KEY (id_minuman) REFERENCES minuman(id_minuman)
 );
+
+
+
+
+
+sqlite
+
+create table user (
+    id_user INTEGER NOT NULL,
+    username VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    nama_depan VARCHAR(100) NOT NULL,
+    nama_belakang VARCHAR(100),
+    gender CHAR,
+    tanggal_lahir DATE,
+    foto_user VARCHAR(100),
+    role VARCHAR(50) NOT NULL,
+    PRIMARY KEY(id_user)
+);
+
+create table minuman (
+    id_minuman INTEGER NOT NULL,
+    nama_minuman VARCHAR(50),
+    deskripsi_minuman VARCHAR(255),
+    Harga_minuman INT,
+    foto_minuman VARCHAR(100),
+    primary key(id_minuman)
+);
+
+create table makanan (
+    id_makanan INTEGER NOT NULL,
+    nama_makanan VARCHAR(50),
+    deskripsi_makanan VARCHAR(255),
+    Harga_makanan INT,
+    foto_makanan VARCHAR(100),
+    primary key(id_makanan)
+);
+
+create table dessert(
+    id_dessert INTEGER NOT NULL,
+    nama_dessert VARCHAR(50),
+    deskripsi_dessert VARCHAR(255),
+    Harga_dessert INT,
+    foto_dessert VARCHAR(100),
+    primary key(id_dessert)
+);
+
+create table cemilan (
+    id_cemilan INTEGER NOT NULL,
+    nama_cemilan VARCHAR(50),
+    deskripsi_cemilan VARCHAR(255),
+    Harga_cemilan INT,
+    foto_cemilan VARCHAR(100),
+    primary key(id_cemilan)
+);
+
+create table cart (
+    id_cart INTEGER NOT NULL,
+    id_user INT NOT NULL,
+    id_cemilan INT,
+    id_dessert INT,
+    id_makanan INT,
+    id_minuman INT,
+    total_harga INT NOT NULL,
+    PRIMARY KEY(id_cart),
+    FOREIGN KEY (id_user) REFERENCES user(id_user),
+    FOREIGN KEY (id_cemilan) REFERENCES cemilan(id_cemilan),
+    FOREIGN KEY (id_dessert) REFERENCES dessert(id_dessert),
+    FOREIGN KEY (id_makanan) REFERENCES makanan(id_makanan),
+    FOREIGN KEY (id_minuman) REFERENCES minuman(id_minuman)
+);
